@@ -1,0 +1,24 @@
+/*Modify the results table to have border and  add a mouse hover effect*/
+.resultsTable            {border-collapse: collapse; border: 0;}
+.resultsTable tr    	 {border: 1px #b0b0b0 solid; border-collapse: collapse;}
+.resultsTable tr:nth-child(even) {background-color:  #E8E8E8;}
+.resultsTable tr:hover {  background-color: #79B4E9; }
+
+
+.header.suite       {border-collapse: collapse; border: 1px #b0b0b0 solid; background-color: #E8E8E8; margin-top: 0;}
+#suites .test       {border: 1px #b0b0b0 solid; margin-top: 0;}
+#suites             {border-collapse: collapse; border: 0;}
+#suites        tr   {border-collapse: collapse; border: 0;}
+#suites        td   {border-collapse: collapse; border: 1px #b0b0b0 solid;}
+#suites        th   {border-collapse: collapse; border: 1px #b0b0b0 solid;}
+
+
+
+/*Remove the test name dotted underline */
+.description             {border-bottom: 1px #006699; cursor: pointer;}
+
+.overviewTable      {border-collapse: collapse; border: 0;}
+.overviewTable tr   {border-collapse: collapse; border: 0;}
+.overviewTable td   {border-collapse: collapse; border: 1px #b0b0b0 solid;}
+.overviewTable th   {border-collapse: collapse; border: 1px #b0b0b0 solid;}
+

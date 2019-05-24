@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chat Suite" thread-count="1" parallel="tests">
+
+    <parameter name="testBrowserName" value="chrome"/>
+    <parameter name="testURL" value="https://platformtraining.imentorstaging.org/#/"/>
+    <parameter name="testBrowserWindowMaximized" value="true"/>
+    <parameter name="testDelayBeforePageProcessing" value="1500"/>
+
+    <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
+    <parameter name="testPassword" value="test123"/>
+
+    <test name="Chat Functionality Validation" preserve-order="true" verbose = "1">
+        <classes>
+            <class name="testNg.TestAttendance">
+                <methods>
+                    <include name="attendancePageCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

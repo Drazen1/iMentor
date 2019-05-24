@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Announcement Suite - EMA user" thread-count="1" parallel="tests">
+
+    <parameter name="testBrowserName" value="chrome"/>
+    <parameter name="testURL" value="https://platformtraining.imentorstaging.org/#/"/>
+    <parameter name="testBrowserWindowMaximized" value="true"/>
+    <parameter name="testDelayBeforePageProcessing" value="2000"/>
+
+    <parameter name="testUsername" value="testemails+user_192977@imentor.org"/>
+    <parameter name="testPassword" value="test123"/>
+    <parameter name="testUserType" value="EMA"/>
+
+    <test name="Check Announcement Functionality" preserve-order="true" verbose = "1">
+        <classes>
+            <class name="testNg.TestAnnouncements">
+                <methods>
+                    <include name="scheduleAnnouncement"/>
+                    <include name="editAnnouncement"/>
+                    <include name="editCustomAnnouncement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
