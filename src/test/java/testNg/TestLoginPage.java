@@ -31,7 +31,7 @@ public class TestLoginPage extends _TestNGSetup {
         softAssert.assertTrue(loginPage.isDisplayed("passwordfield"), "[2] Password field is not displayed!");
         softAssert.assertTrue(loginPage.isDisplayed("forgetpassword"), "[3] Forgot password link is not displayed!");
         softAssert.assertTrue(loginPage.isDisplayed("signin"), "[4] Sign in button is not displayed!");
-        softAssert.assertTrue(loginPage.isDisplayed("title") && loginPage.getTitle().length() > 0, "[5] Title is not displayed!");
+        softAssert.assertTrue(loginPage.isDisplayed("unitTitle") && loginPage.getTitle().length() > 0, "[5] Title is not displayed!");
         softAssert.assertTrue(loginPage.isDisplayed("mentorapplicationbutton"), "[6] 'Start a New Mentor Application' button is not displayed!");
         softAssert.assertTrue(loginPage.isDisplayed("studentapplicationbutton"), "[7] 'Start a New Student Application' button is not displayed!");
         softAssert.assertTrue(loginPage.isDisplayed("privacypolicy"), "[8] 'Privacy Policy' link is not displayed!");

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="iMentor Smoke test - General and Functional Validation Suite - Dev" thread-count="1" parallel="tests">
+
+    <parameter name="testBrowserName" value="chrome"/>
+    <parameter name="testURL" value="https://platformtraining.imentordev.org/"/>
+
+    <parameter name="testBrowserWindowMaximized" value="true"/>
+    <parameter name="testDelayBeforePageProcessing" value="3000"/>
+
+    <test name="Login Page - General and Functional Validation" preserve-order="true" verbose = "1">
+        <classes>
+            <class name="testNg.TestLoginPage">
+                <methods>
+                    <exclude name="loginPageGeneralCheck"/>
+                    <exclude name="loginFunctionalityCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Announcement Validation EMA" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_192977@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestAnnouncements">
+                <methods>
+                    <exclude name="scheduleAnnouncement"/>
+                    <exclude name="editAnnouncement"/>
+                    <exclude name="editCustomAnnouncement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Announcement Validation MA" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151653@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestAnnouncements">
+                <methods>
+                    <exclude name="scheduleAnnouncement"/>
+                    <exclude name="editAnnouncement"/>
+                    <exclude name="editCustomAnnouncement"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Attendance Validation" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestAttendance">
+                <methods>
+                    <include name="attendancePageCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Chat Functionality Validation" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151742@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestChat">
+                <methods>
+                    <exclude name="chatFunctionalityMenteeSendMessage"/>
+                    <exclude name="chatFunctionalityMentorReadMessage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Schedule Lesson functionality validation" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestLessonManagement">
+                <methods>
+                    <exclude name="scheduleLessonTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Lesson Response Validation" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151764@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestLessonResponse">
+                <methods>
+                    <exclude name="sendLessonResponseTest"/>
+                    <exclude name="readLessonResponseByMentorTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="User Management, Flipbook, Snapshot test" preserve-order="true" verbose = "1">
+        <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
+        <parameter name="testPassword" value="test123"/>
+        <classes>
+            <class name="testNg.TestUserManagementFlipbookSnapshot">
+                <methods>
+                    <exclude name="userManagementFlipbookSnapshotTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

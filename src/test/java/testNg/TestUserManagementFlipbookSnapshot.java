@@ -27,7 +27,7 @@ public class TestUserManagementFlipbookSnapshot extends _TestNGSetup {
             + "&emsp;2. Check if the Password can be set;<br>"
             + "&emsp;3. Check if the click on the 'Sign in' button can be executed;<br>"
             + "&emsp;4. Click on the every of the following options: 'Flipbook', 'User Management' and 'Snapshot';<br>"
-            + "&emsp;5. Validate that the clicked options stands as tab title and check that the right content element is displayed on the page;<br>"
+            + "&emsp;5. Validate that the clicked options stands as tab unitTitle and check that the right content element is displayed on the page;<br>"
     )
     public void userManagementFlipbookSnapshotTest(String option) {
         driver.navigate().to(testConfig.testURL);
@@ -42,17 +42,17 @@ public class TestUserManagementFlipbookSnapshot extends _TestNGSetup {
         Assert.assertTrue(homePageAdmin.selectItem(option), "[4] The click action on the option: '" + option + "' failed to execute!");
 
         if (option.equals("Flipbook")) {
-            Assert.assertTrue(driver.getTitle().contains("Flipbook"), "[5a] Flipbook option isn't displayed in browser tab title!");
+            Assert.assertTrue(driver.getTitle().contains("Flipbook"), "[5a] Flipbook option isn't displayed in browser tab unitTitle!");
             Assert.assertNotNull(driver.findElement(By.className("flipbook-page")), "[5b] Page container 'flipbook-page' isn't displayed!");
         }
 
         if (option.equals("User Management")) {
-            Assert.assertTrue(driver.getTitle().contains("User Management"), "[5a] User Management option isn't displayed in browser tab title!");
+            Assert.assertTrue(driver.getTitle().contains("User Management"), "[5a] User Management option isn't displayed in browser tab unitTitle!");
             Assert.assertNotNull(driver.findElement(By.cssSelector("body#id_body")), "[5b] Page container 'body#id_body' isn't displayed!");
         }
 
         if (option.equals("Snapshot")) {
-            Assert.assertTrue(driver.getTitle().contains("Snapshot"), "[5a] Snapshot option isn't displayed in browser tab title!");
+            Assert.assertTrue(driver.getTitle().contains("Snapshot"), "[5a] Snapshot option isn't displayed in browser tab unitTitle!");
             Assert.assertNotNull(driver.findElement(By.className("snapshot-page")), "[5b] Page container 'snapshot-page' isn't displayed!");
         }
     }

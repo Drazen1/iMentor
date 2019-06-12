@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Notes Suite" thread-count="1" parallel="tests">
+
+    <parameter name="testBrowserName" value="chrome"/>
+    <parameter name="testURL" value="https://platformtraining.imentorstaging.org/#/"/>
+    <parameter name="testBrowserWindowMaximized" value="true"/>
+    <parameter name="testDelayBeforePageProcessing" value="2000"/>
+
+    <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
+    <parameter name="testPassword" value="test123"/>
+
+    <test name="Notes feature - General and Functional Validation" preserve-order="true" verbose = "1">
+        <classes>
+            <class name="testNg.TestNotes">
+                <methods>
+                    <exclude name="notesGeneralCheck"/>
+                    <exclude name="addNoteIndividualized"/>
+                    <exclude name="addNoteQuick"/>
+                    <exclude name="deleteQuickNote"/>
+                    <exclude name="noteTrackerGeneralCheck"/>
+                    <include name="noteCatalogCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

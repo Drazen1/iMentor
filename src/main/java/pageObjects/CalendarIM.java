@@ -19,6 +19,9 @@ public class CalendarIM {
 
     private WebDriver driver;
 
+    @FindBy(css = "div[style*='left'] .icon-mydpleft")
+    private WebElement webElementPreviousMonthIcon;
+
     @FindBy(css = "div[style*='left'] .icon-mydpright")
     private WebElement webElementNextMonthIcon;
 
@@ -56,6 +59,7 @@ public class CalendarIM {
             return ElementsUtils.clickElementAndWait(webElementListCurrentMonthActiveDays.get(index + 1), 1500);
         } else {
             if (ElementsUtils.clickElementAndWait(webElementNextMonthIcon, 1500)) {
+                updateActiveDays();
                 if (cachedActiveDaysList.size() > (index + 1)) {
                     return ElementsUtils.clickElementAndWait(webElementListCurrentMonthActiveDays.get(index + 1), 1500);
                 }
@@ -83,6 +87,18 @@ public class CalendarIM {
             }
         }
         return false;
+    }
+
+    public boolean selectPreviousMonth() {
+        return ElementsUtils.clickElementAndWait(webElementPreviousMonthIcon, 2000);
+    }
+
+    public boolean selectNextMonth() {
+        return ElementsUtils.clickElementAndWait(webElementNextMonthIcon, 2000);
+    }
+
+    public boolean selectCurrentDay() {
+        return ElementsUtils.clickElementAndWait(webElementListCurrentMonthActiveDays.get(webElementListCurrentMonthActiveDays.size() -1), 2000);
     }
 
 }

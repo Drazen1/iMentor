@@ -201,9 +201,6 @@ public class ScheduleNewAnnouncementPage {
         body.sendKeys(Keys.CONTROL + "a"); // send 'ctrl+a' to select all
         body.sendKeys(text);
        return true;
-
-       // MouseUtils.scrollIntoView(webElementAnnouncementTextFiled);
-       // return ElementsUtils.setElementValue(webElementAnnouncementTextFiled, text);
     }
 
 }

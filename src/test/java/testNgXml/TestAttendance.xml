@@ -4,9 +4,10 @@
 
     <parameter name="testBrowserName" value="chrome"/>
     <parameter name="testURL" value="https://platformtraining.imentorstaging.org/#/"/>
+    <!--parameter name="testURL" value="https://platformtraining.imentordev.org/"/-->
+
     <parameter name="testBrowserWindowMaximized" value="true"/>
     <parameter name="testDelayBeforePageProcessing" value="1500"/>
-
     <parameter name="testUsername" value="testemails+user_151297@imentor.org"/>
     <parameter name="testPassword" value="test123"/>
 

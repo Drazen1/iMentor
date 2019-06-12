@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac361120-2532-4411-834c-1763ff91ccd6" name="Default Changelist" comment="" />
+    <list default="true" id="ac361120-2532-4411-834c-1763ff91ccd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Curriculum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ModalWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/NoteCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/NoteTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/NotesWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ViewNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNg/TestNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgXml/TestNotes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionChromeDev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/CalendarIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/CalendarIM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNg/TestLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNg/TestLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNg/TestUserManagementFlipbookSnapshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNg/TestUserManagementFlipbookSnapshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionFirefox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionFirefox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionFirefox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/IMentor.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/CalendarIM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/CalendarIM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg/TestAnnouncements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg/TestAnnouncements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg/TestAttendance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg/TestAttendance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg/TestLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg/TestLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testNg/TestUserManagementFlipbookSnapshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testNg/TestUserManagementFlipbookSnapshot.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +46,79 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$/../../TestResults" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/extensions/ElementsUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state relative-caret-position="192">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#7160#7161#0" expanded="true" />
+                <element signature="e#7218#7219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/NoteCatalog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-399">
+              <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LessonManagementPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestNotes.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestNotes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="233" column="46" selection-start-line="233" selection-start-column="46" selection-end-line="233" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/extensions/WaitUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLessonManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,32 +135,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>refre</find>
+      <find>group</find>
+      <find>iframe</find>
+      <find>startdate</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/CreateYourAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePageChatWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/Navigation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/Attendance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestScheduleAnnouncements.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ChatWindow.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNg/TestScheduleAnnouncements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncements.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/SideNavigation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/PreviewAnnouncement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestLoginPage.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestUserManagementFlipbookSnapshot.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePageAdmin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/Calendar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/CalendarIM.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LessonManagementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncement.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LessonPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/DriverStart.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/PropertyHelper.java" />
@@ -74,7 +162,6 @@
         <option value="$PROJECT_DIR$/src/main/java/extensions/MouseUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNg/_TestNGSetup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNg/TestChat.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNg/TestLessonManagement.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNg/TestLessonResponse.java" />
@@ -83,30 +170,50 @@
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePageMentor.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNg/TestLoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/EditAnnouncement.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestChat.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionFirefox.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePageMentee.java" />
         <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementsEMA.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/TasksAndAnnouncementsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionFirefox.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionChromeDev.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionFirefox.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/CalendarIM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/NotesWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ViewNotes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/Groups.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ModalWindow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/Curriculum.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/NoteTracker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testNgXml/TestNotes.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testNg/TestNotes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/NoteCatalog.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-284" />
-    <option name="y" value="-1170" />
-    <option name="width" value="1909" />
-    <option name="height" value="1151" />
+    <option name="x" value="-280" />
+    <option name="y" value="-1171" />
+    <option name="width" value="1899" />
+    <option name="height" value="1162" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +238,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMentor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMentor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IMentor" type="b2602c69:ProjectViewProjectNode" />
@@ -193,19 +308,47 @@
               <item name="testNgXml" type="462c0819:PsiDirectoryNode" />
               <item name="fullRegression" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="IMentor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMentor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testNgXml" type="462c0819:PsiDirectoryNode" />
+              <item name="fullRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IMentor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IMentor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testNgXml" type="462c0819:PsiDirectoryNode" />
+              <item name="fullRegression" type="462c0819:PsiDirectoryNode" />
+              <item name="staging" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,7 +362,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml">
+  <component name="RunManager" selected="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml">
+    <configuration name="TestNotes.deleteQuickNote" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="IMentor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testNg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testNg" />
+      <option name="MAIN_CLASS_NAME" value="testNg.TestNotes" />
+      <option name="METHOD_NAME" value="deleteQuickNote" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementMA.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IMentor" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA.xml" />
@@ -230,9 +391,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAttendance.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IMentor" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementsEMA.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -240,9 +401,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestChat.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IMentor" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestChat.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestNotes.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -250,19 +411,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestLessonResponse.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="IMentor" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/TestLessonResponse.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="IMentor" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -272,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" />
-        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" />
-        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestLessonResponse.xml" />
+        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" />
+        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAttendance.xml" />
         <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementMA.xml" />
-        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestChat.xml" />
+        <item itemvalue="TestNG./Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml" />
+        <item itemvalue="TestNG.TestNotes.deleteQuickNote" />
       </list>
     </recent_temporary>
   </component>
@@ -294,57 +445,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestLessonResponse_xml - 2019.05.23 at 16h 01m 04s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestLessonResponse.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 14h 17m 18s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestLessonResponse_xml - 2019.05.23 at 16h 02m 27s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestLessonResponse.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 32m 22s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 10m 32s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 33m 01s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 13m 58s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 35m 04s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 18m 54s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 50m 14s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 24m 05s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 50m 53s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 32m 12s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 53m 28s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestAnnouncementsEMA_xml - 2019.05.23 at 16h 38m 18s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestAnnouncementsEMA.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 16h 55m 44s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_fullRegression_TestFullRegressionChrome_xml - 2019.05.23 at 16h 56m 34s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 17h 31m 17s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_fullRegression_TestFullRegressionChrome_xml - 2019.05.24 at 10h 49m 36s.xml">
-      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml" configurationId="TestNG" />
+    <history-entry file="_Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_TestNotes_xml - 2019.06.11 at 17h 32m 06s.xml">
+      <configuration name="/Users/drazen/Documents/Java Project/IMentor/src/test/java/testNgXml/TestNotes.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-284" y="-1177" width="1920" height="1177" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867022" visible="true" weight="0.22083333" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867022" visible="true" weight="0.18958333" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30024815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.83363473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28481013" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22332731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298077" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2653846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32838774" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,36 +505,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Structure" order="8" sideWeight="0.5013298" visible="true" weight="0.13802083" />
+      <window_info anchor="right" id="Structure" order="8" sideWeight="0.5013298" visible="true" weight="0.15729167" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49867022" visible="true" weight="0.11927083" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1329114" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Structure" order="8" sideWeight="0.5013298" visible="true" weight="0.0421875" />
-    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -393,270 +520,114 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testNg/TestLessonManagement.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="379" selection-start-line="379" selection-end-line="379" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Test Results - _Users_drazen_Documents_Java_Project_IMentor_src_test_java_testNgXml_fullRegression_TestFullRegressionFirefox_xml.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Navigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="31" column="117" lean-forward="true" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/SideNavigation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LessonManagementPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="153" column="19" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ChatWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1813#1814#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LessonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2543#2544#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/DriverStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/PropertyHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/DropDownUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/_TestNGSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestUserManagementFlipbookSnapshot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestUserManagementFlipbookSnapshot.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePageMentor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestLoginPage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/MouseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="171" column="8" selection-start-line="171" selection-start-column="8" selection-end-line="171" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/EditAnnouncement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="795">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePageAdmin.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionChromeDev.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/CalendarIM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/internal/BaseAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="61" column="74" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+        <state relative-caret-position="195">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLoginPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/internal/MouseAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        <state relative-caret-position="210">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/MoveMouseAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/CompositeAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Interaction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/PointerInput.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestChat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestChat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="454">
+          <caret line="429" selection-start-line="429" selection-end-line="429" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#15036#15037#0" expanded="true" />
+            <element signature="e#15110#15111#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLessonManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionFirefox.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -667,16 +638,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="141">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#2669#2670#0" expanded="true" />
@@ -684,17 +648,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/WaitUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="-300">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#2397#2398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ViewNotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/NotesWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="100" column="86" selection-start-line="100" selection-start-column="86" selection-end-line="100" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ScheduleNewAnnouncementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="185" column="9" lean-forward="true" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionChromeStaging.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="90" column="52" lean-forward="true" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ModalWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4265">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Groups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1544">
+          <caret line="105" column="86" selection-start-line="105" selection-start-column="86" selection-end-line="105" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="430" column="17" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -702,6 +771,147 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="439" selection-start-line="439" selection-end-line="439" />
+          <folding>
+            <element signature="e#21653#21654#0" expanded="true" />
+            <element signature="e#21701#21702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/MouseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementListHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAttendance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/Curriculum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4691#4692#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/staging/TestFullRegressionFirefox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" lean-forward="true" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/dev/TestFullRegressionFirefox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLessonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestLessonManagement.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="63" lean-forward="true" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementMA.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/NoteTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" selection-start-line="120" selection-end-line="126" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LessonManagementPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/extensions/WaitUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLessonManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="76" column="55" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestAttendance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -710,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/extensions/ElementsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="192">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#7160#7161#0" expanded="true" />
@@ -720,99 +930,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/Assert.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/NoteCatalog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestLessonResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="-399">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePageMentee.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestNotes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="70" column="73" selection-start-line="70" selection-start-column="73" selection-end-line="70" selection-end-column="73" />
+        <state relative-caret-position="681">
+          <caret line="233" column="46" selection-start-line="233" selection-start-column="46" selection-end-line="233" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestLessonResponse.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestNotes.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="803" selection-start-line="803" selection-end-line="803" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="430" column="17" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestMethodWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/TestAnnouncementsEMA.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/TasksAndAnnouncementsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="70" column="92" selection-start-line="70" selection-start-column="92" selection-end-line="70" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNg/TestAnnouncements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="111" column="64" selection-start-line="111" selection-start-column="64" selection-end-line="111" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testNgXml/fullRegression/TestFullRegressionChrome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="50" column="56" lean-forward="true" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        <state relative-caret-position="75">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="83" />
         </state>
       </provider>
     </entry>

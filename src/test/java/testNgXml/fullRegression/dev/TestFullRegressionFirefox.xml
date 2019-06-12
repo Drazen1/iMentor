@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="iMentor Smoke test - General and Functional Validation Suite" thread-count="1" parallel="tests">
+<suite name="iMentor Smoke test - General and Functional Validation Suite - Dev" thread-count="1" parallel="tests">
 
-    <parameter name="testBrowserName" value="chrome"/>
-    <parameter name="testURL" value="https://platformtraining.imentorstaging.org/#/"/>
+    <parameter name="testBrowserName" value="firefox"/>
+    <parameter name="testURL" value="https://platformtraining.imentordev.org/"/>
+
     <parameter name="testBrowserWindowMaximized" value="true"/>
     <parameter name="testDelayBeforePageProcessing" value="3000"/>
 

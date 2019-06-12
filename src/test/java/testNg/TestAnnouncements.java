@@ -1,8 +1,8 @@
 package testNg;
 
-import extensions.MouseUtils;
 import extensions.WaitUtils;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,8 +10,52 @@ import pageObjects.*;
 
 public class TestAnnouncements extends  _TestNGSetup {
 
+    String testGroupTitle = "TestGroup" + Long.toString(System.currentTimeMillis());
     String title = "Title " + Long.toString(System.currentTimeMillis());
     String text = "Text: " + Long.toString(System.currentTimeMillis());
+
+    @BeforeClass(description = "Login as EMA/MA and create announcement group: <br>"
+            + "&emsp;1. Login as EMA/MA;<br>"
+            + "&emsp;2. Click on the ‘Menu’, expand ‘Administration’ and click on the ‘Announcement Groups’;<br>"
+            + "&emsp;3. Click on the ‘Add a Group’;<br>"
+            + "&emsp;4. Enter a Group name;<br>"
+            + "&emsp;5. Select any option from ‘Select a filter’ dropdown;<br>"
+            + "&emsp;6. Select any option from new filter dropdown;<br>"
+            + "&emsp;7. Click on the ‘Add’ button;<br>"
+            + "&emsp;8. Click on the ‘Save’ button;<br>"
+            + "&emsp;9. Click on the ‘Yes,save’ button from pop-up;<br>"
+    )
+    public void createAnnouncementGroup() {
+        driver.navigate().to(testConfig.testURL);
+        WaitUtils.waitForPageProcessing(testConfig.testDelayBeforePageProcessing);
+
+        LoginPage loginPage = new LoginPage(driver);
+        Assert.assertTrue(loginPage.setEmail(testConfig.testUsername), "[1] Failed to set email address!");
+        Assert.assertTrue(loginPage.setPassword(testConfig.testPassword), "[2] Failed to set password!");
+        Assert.assertTrue(loginPage.signIn(), "[3] The click action on the 'Sign in' button failed to execute!");
+
+        Navigation topNavigation = new Navigation(driver);
+        Assert.assertTrue(topNavigation.clickElement("menuicon"), "[4]The click action on menu icon failed to execute!");
+
+        SideNavigation sideNavigation = new SideNavigation(driver);
+        Assert.assertTrue(sideNavigation.selectNavigationSubmenuOption("Administration", "Announcement Groups"),
+                "[5] Failed to select 'Announcement Groups' option!");
+        Assert.assertTrue(topNavigation.clickElement("menuicon"), "Failed to collapse menu!");
+
+        Groups groupsPage = new Groups(driver);
+        Assert.assertTrue(groupsPage.clickElement("addgroup"), "The click action on the 'Add a Group' button failed to execute!");
+        Assert.assertTrue(groupsPage.setText(testGroupTitle), "Filed to set the group name to: " + testGroupTitle);
+        Assert.assertTrue(groupsPage.selectFirstFilterToggleButton(), "The click action on the first filter drop down button failed to execute!");
+        Assert.assertTrue(groupsPage.selectFirstFilter("User Type"), "Failed to select 'User Type' filter!");
+        Assert.assertTrue(groupsPage.selectSecondFilterToggleButton(), "The click action on the second filter drop down button failed to execute!");
+        Assert.assertTrue(groupsPage.selectSecondFilter("Mentors"), "The click action on the 'Mentors' drop down option failed to execute!");
+        Assert.assertTrue(groupsPage.collapseDropDown(), "Failed to collapse the second drop down!");
+        Assert.assertTrue(groupsPage.selectButton("Add"), "The click action on the Add button failed to execute!");
+        Assert.assertTrue(groupsPage.selectButton("Save"), "The click action on the Save button failed to execute!");
+
+        ModalWindow modalWindow = new ModalWindow(driver);
+        Assert.assertTrue(modalWindow.clickElement("save"), "The click action on the 'Yes, save' button in Modal window failed to execute!");
+    }
 
     @BeforeMethod
     public void beforeMethodActions() {
@@ -67,7 +111,10 @@ public class TestAnnouncements extends  _TestNGSetup {
         ScheduleNewAnnouncementPage newAnnouncementPage = new ScheduleNewAnnouncementPage(driver);
         Assert.assertTrue(newAnnouncementPage.expandGroupDropDown(), "[2] Group drop down has not been expanded!");
         Assert.assertTrue(newAnnouncementPage.showMyGroups(), "[3a] Failed to select 'Show My Groups' button");
-        Assert.assertTrue(newAnnouncementPage.selectGroup("AFHS 19 Mentees"), "[3b] Failed to select 'AFHS 19 Mentees' group!");
+
+        //Assert.assertTrue(newAnnouncementPage.selectGroup("AFHS 19 Mentees"), "[3b] Failed to select 'AFHS 19 Mentees' group!");
+        Assert.assertTrue(newAnnouncementPage.selectGroup(testGroupTitle), "[3b] Failed to select 'AFHS 19 Mentees' group!");
+
         Assert.assertTrue(newAnnouncementPage.collapseGroupDropDown(), "[4] Failed to collapse group drop down!");
         Assert.assertTrue(newAnnouncementPage.selectStartDate(), "[5] The click action on the Start Date button failed to execute!");
 
@@ -86,7 +133,7 @@ public class TestAnnouncements extends  _TestNGSetup {
         if (type.equalsIgnoreCase("Custom")) {
             Assert.assertTrue(newAnnouncementPage.expandPriority(), "The click action on the Priority popUp button failed to execute!");
             Assert.assertTrue(newAnnouncementPage.selectPriority("Banner"), "The click action on the 'Banner' priority failed to execute!");
-            Assert.assertTrue(newAnnouncementPage.setAnnouncementTitle(title), "Failed to set Announcement title");
+            Assert.assertTrue(newAnnouncementPage.setAnnouncementTitle(title), "Failed to set Announcement unitTitle");
             Assert.assertTrue(newAnnouncementPage.setAnnouncementText(text), "Failed to set Announcement text!");
             Assert.assertTrue(newAnnouncementPage.clickGotItButton(), "Failed to click on the 'Got it!' button!");
         }
